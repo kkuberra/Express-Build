@@ -1,0 +1,15 @@
+{
+  "name": "express-drill-1",
+  "version": "1.0.0",
+  "description": "Express Drills",
+  "main": "app.js",
+  "scripts": {
+    "test": "express-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Express-Build"
+  },
+  "author": "Kyle",
+  "license": "ISC"
+}
