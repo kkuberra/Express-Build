@@ -1,15 +1,29 @@
 {
-  "name": "express-drill-1",
+  "name": "Express-Build",
   "version": "1.0.0",
-  "description": "Express Drills",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "express-server"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "Express-Build"
+    "url": "git+https://github.com/kkuberra/Express-Build.git"
   },
-  "author": "Kyle",
-  "license": "ISC"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkuberra/Express-Build/issues"
+  },
+  "homepage": "https://github.com/kkuberra/Express-Build#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
 }
