@@ -39,4 +39,4 @@ app.get("/:id", (req, res, next) => {
   });
 });
 
-app.listen(port)
+app.listen(port);
